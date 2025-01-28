@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "8g4+E1CO7do=",
+  "dgSpecHash": "tXotG5xl3Rk=",
   "success": true,
-  "projectFilePath": "D:\\3 TREINAMENTOS\\1 ESTUDOS\\3 TI\\CODIGOS PRONTOS\\2 Udemy ANGULAR e .NET\\Curriculo\\back\\src\\Curriculo.API\\Curriculo.API.csproj",
+  "projectFilePath": "D:\\3 TREINAMENTOS\\1 ESTUDOS\\3 TI\\CODIGOS PRONTOS\\2 Udemy ANGULAR e .NET\\2025_Code\\Curriculo\\back\\src\\Curriculo.API\\Curriculo.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\tonso\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\tonso\\.nuget\\packages\\microsoft.aspnetcore.openapi\\9.0.1\\microsoft.aspnetcore.openapi.9.0.1.nupkg.sha512",

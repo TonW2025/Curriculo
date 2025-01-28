@@ -4032,11 +4032,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\3 TREINAMENTOS\\1 ESTUDOS\\3 TI\\CODIGOS PRONTOS\\2 Udemy ANGULAR e .NET\\Curriculo\\back\\src\\Curriculo.API\\Curriculo.API.csproj",
+      "projectUniqueName": "D:\\3 TREINAMENTOS\\1 ESTUDOS\\3 TI\\CODIGOS PRONTOS\\2 Udemy ANGULAR e .NET\\2025_Code\\Curriculo\\back\\src\\Curriculo.API\\Curriculo.API.csproj",
       "projectName": "Curriculo.API",
-      "projectPath": "D:\\3 TREINAMENTOS\\1 ESTUDOS\\3 TI\\CODIGOS PRONTOS\\2 Udemy ANGULAR e .NET\\Curriculo\\back\\src\\Curriculo.API\\Curriculo.API.csproj",
+      "projectPath": "D:\\3 TREINAMENTOS\\1 ESTUDOS\\3 TI\\CODIGOS PRONTOS\\2 Udemy ANGULAR e .NET\\2025_Code\\Curriculo\\back\\src\\Curriculo.API\\Curriculo.API.csproj",
       "packagesPath": "C:\\Users\\tonso\\.nuget\\packages\\",
-      "outputPath": "D:\\3 TREINAMENTOS\\1 ESTUDOS\\3 TI\\CODIGOS PRONTOS\\2 Udemy ANGULAR e .NET\\Curriculo\\back\\src\\Curriculo.API\\obj\\",
+      "outputPath": "D:\\3 TREINAMENTOS\\1 ESTUDOS\\3 TI\\CODIGOS PRONTOS\\2 Udemy ANGULAR e .NET\\2025_Code\\Curriculo\\back\\src\\Curriculo.API\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
