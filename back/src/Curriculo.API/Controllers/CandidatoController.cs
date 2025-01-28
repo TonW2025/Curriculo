@@ -1,15 +1,16 @@
 using Curriculo.API.Data;
 using Curriculo.API.Models;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 namespace Curriculo.API;
 
 [ApiController]
 [Route("api/[controller]")]
-public class EventoController : ControllerBase
+public class CandidatoController : ControllerBase
 {
     private readonly DataContext _dataContext;
-    public EventoController(DataContext dataContext)
+    public CandidatoController(DataContext dataContext)
     {
         _dataContext = dataContext;
     }
@@ -20,8 +21,8 @@ public class EventoController : ControllerBase
     }
 
     [HttpGet("{id}")]
-    public IEnumerable<Candidato> GetById(int id){
-        return _dataContext.Candidatos.Where(c => c.IdCandidato == id );
+    public Candidato GetById(int id){
+        return _dataContext.Candidatos.FirstOrDefault(c => c.Id == id );
     }
 
 }

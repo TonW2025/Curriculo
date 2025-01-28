@@ -1,9 +1,12 @@
+using System.ComponentModel.DataAnnotations;
+
 namespace Curriculo.API.Models
 {
     public class Candidato
     {
-        public int IdCandidato { get; set; }
-        public string NomeCandidato { get; set; }
+        [Key]
+        public int Id { get; set; }
+        public string Nome { get; set; }
         // Adicione outras propriedades aqui
     }
 }
