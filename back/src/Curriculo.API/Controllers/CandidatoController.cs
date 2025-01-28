@@ -23,6 +23,7 @@ public class CandidatoController : ControllerBase
     [HttpGet("{id}")]
     public Candidato GetById(int id){
         return _dataContext.Candidatos.FirstOrDefault(c => c.Id == id );
+        //return _dataContext.Candidatos.FirstOrDefault(c => c.Id == id );
     }
 
 }
