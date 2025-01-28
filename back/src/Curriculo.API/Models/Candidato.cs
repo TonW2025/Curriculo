@@ -2,8 +2,8 @@ namespace Curriculo.API.Models
 {
     public class Candidato
     {
-        public int Id { get; set; }
-        public string Nome { get; set; }
+        public int IdCandidato { get; set; }
+        public string NomeCandidato { get; set; }
         // Adicione outras propriedades aqui
     }
 }
