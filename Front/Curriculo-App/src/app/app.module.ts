@@ -6,20 +6,28 @@ import { AppComponent } from './app.component';
 import { EventosComponent } from './eventos/eventos.component';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { NavComponent } from './nav/nav.component';
+import { CollapseModule } from 'ngx-bootstrap/collapse';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 @NgModule({
-  declarations: [
+  declarations: [	    
     
-  ],
+   ],
   imports: [
-    BrowserModule,
+    BrowserModule, 
     CommonModule,
     HttpClientModule,
-    BrowserAnimationsModule //
+    BrowserAnimationsModule,
+    NavComponent, 
+    AppComponent,
+    CollapseModule.forRoot(),
+    NgbModule
   ],
-  providers: []
+  // providers: []
   //bootstrap: [AppComponent]
 })
+
 export class AppModule { }
 
 /*
@@ -35,6 +43,7 @@ export class AppModule { }
   import { BrowserAnimationsModule } from '@angular/platform-browser/animations'; // Importe o módulo
 
   import { AppComponent } from './app.component';
+import { NavComponent } from './nav/nav.component';
 
   @NgModule({
   declarations: [
