@@ -1,5 +1,6 @@
 <h2>Eventos</h2> 
 <hr>
+
 <form action="" class="form-inline">
     <div class="row">
         <div class="col-4">
@@ -12,6 +13,7 @@
 </form>
 
 <h2 style="margin-top: 15px; margin-bottom: 15px;">Encontrados: </h2>
+
 <table class="table table-striped">
     <thead class="thead-dark">
         <tr>
@@ -26,10 +28,10 @@
         </tr>
     </thead>
     <tbody>
-        <tr>
+        <tr *ngFor="let evento of eventos">
+            <td>{{evento.id}}</td>
             <td></td>
-            <td></td>
-            <td></td>
+            <td>{{evento.nome}}</td>
             <td></td>
             <td></td>
             <td></td>
@@ -39,12 +41,6 @@
     </tbody>
 
 </table>
-
-<div *ngFor="let evento of eventos">
-    <p> <b>Tema: </b> {{evento.id}}</p>
-    <p> <b>Local: </b> {{evento.nome}}</p>
-    <hr>
-</div>
   
 
 
